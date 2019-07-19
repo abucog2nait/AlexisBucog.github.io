@@ -81,3 +81,9 @@ a {
 a:hover {
     background-color:rgba(128, 128, 128, 0.856);
 }
+
+@media (max-width: 568px) {
+    .pimg1,.pimg2 {
+        background-attachment: scroll;
+    }
+}
