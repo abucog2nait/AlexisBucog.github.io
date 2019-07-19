@@ -82,7 +82,11 @@ a:hover {
     background-color:rgba(128, 128, 128, 0.856);
 }
 
-
+@media (max-width:100%) {
+    .pimg1, .pimg2{
+        background-attachment: scroll;
+    }
+}
 
 .resume {
     max-width: 100%;
