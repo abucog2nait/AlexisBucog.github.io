@@ -87,3 +87,9 @@ a:hover {
         background-attachment: scroll;
     }
 }
+
+.resume {
+    width: 100%;
+    max-width: 750px;
+    max-height: 1100px;
+}
