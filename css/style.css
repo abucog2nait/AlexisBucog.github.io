@@ -85,7 +85,5 @@ a:hover {
 
 
 .resume {
-    width: 100%;
-    max-width: 750px;
-    max-height: 1100px;
+    max-width: 100%;
 }
