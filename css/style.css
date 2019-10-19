@@ -8,7 +8,7 @@ body, html{
     color: black;
 }
 
-.pimg1, .pimg2 {
+.pimg1, .pimg2, .pimg3, .pimg4 {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -21,14 +21,24 @@ body, html{
     background-attachment: fixed;
 }
 .pimg1 {
-    background-image: url('../img/ski.jpeg');
+    background-image: url('../img/greywall01.jpeg');
     min-height: 100%;
 
 }
 
 .pimg2 {
-    background-image: url('../img/skytwo.jpeg');
-    min-height: 400px;
+    background-image: url('../img/projects02.jpeg');
+    min-height: 380px;
+}
+
+.pimg3 {
+    background-image: url('../img/contactinfo.jpeg');
+    min-height: 340px;
+}
+
+.pimg4 {
+    background-image: url('../img/skill.jpeg');
+    min-height: 340px;
 }
 
 .section {
@@ -56,25 +66,28 @@ body, html{
     top:50%;
     width:100%;
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 30px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
 .ptext .businesstitle {
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
     letter-spacing: 2px;
 }
 
 .contactinfo {
-    line-height: 0.7em;
+    position: absolute;
+    line-height: 0.4em;
     color: black;
+    margin-bottom: 0px;
 }
+
 a {
     text-decoration: none;
 }
@@ -90,4 +103,42 @@ a:hover {
 
 .resume {
     max-width: 100%;
+}
+
+.skilltext 
+{
+    text-align: left;
+    line-height: 0.7em;
+    padding-left: 240px;
+}
+
+ul {
+    position: relative;
+
+}
+ul li 
+{
+    display: block;
+    background: rgba(red, green, blue, alpha);
+    padding: 10px 20px;
+    color: grey;
+    transition: 1s;
+
+
+}
+
+ul li:hover{
+    transform: scale(1.06);
+    background-color: lightgrey;
+}
+
+span
+{
+    text-align: center;
+    
+}
+
+ol li 
+{
+    display: block;
 }
